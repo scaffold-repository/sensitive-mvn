@@ -54,9 +54,9 @@ public class tet implements ApplicationContextAware {
 - 5.敏感词检测的接口
 
 ```xml
-    Stirng test="土g"
+    Stirng test="123123123"
     if (wordFilter.isContains(test)){
-        System.out.println("包含敏感词");
+        System.out.println("yes contain");
     }else{
-        System.out.println("ok");
+        System.out.println("ok contain");
     }
