@@ -25,7 +25,7 @@ maven中依赖
 
 ```xml
 在您的application.properties文件中添加
-net.cnki.sensitive.sensitive-file=zh.txt,bl.txt,wz.txt,sq.txt
+com.scaffold.sensitive.sensitive-file=zh.txt,bl.txt,wz.txt,sq.txt
 zh为政治，bl为暴力，sq是色情，wz网站
 ```
 
